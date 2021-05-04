@@ -1,0 +1,4 @@
+#!/bin/bash
+
+[[ "$1" == "all" ]] && all="--all-namespaces"
+kubectl get pods --output=wide $all

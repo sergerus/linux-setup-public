@@ -1,0 +1,6 @@
+[push]
+	default = simple
+[gui]
+	encoding = utf-8
+[core]
+	quotePath = false
